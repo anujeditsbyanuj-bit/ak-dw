@@ -31,4 +31,4 @@ AUTO_DELETE_SECONDS = int(os.getenv("AUTO_DELETE_SECONDS", str(60 * 60)))  # 1 h
 # logs: startup message, new-user notifications, and a line per download.
 # Leave unset / 0 to disable. This is separate from the per-owner
 # /set_channel_id backup channels, which store copies of the actual files.
-LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1003955674028")
+LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1003955674028"))
