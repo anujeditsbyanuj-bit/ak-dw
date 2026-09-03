@@ -3,12 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID", "37476811")
-API_HASH = int(os.getenv("API_HASH", "7aa60670b871050820086c6267371ee6")
-BOT_TOKEN = int(os.getenv("BOT_TOKEN", "8485375487:AAGbjy5K4PPcOkAlTKDFdYvQe04L_VmLkFw")
-SESSION = int(os.getenv("SESSION", "1BVtsOJ0Bu7iFhYaPaDWTPDdVAtu310L3iOh4PlTSxrTSyGaJPYQzf6rDgAMM9xGktQy9DodpC5TCCDTBMV3AiS4f5SNUbDR6kiPQ0PHUfj--XOQv82ZW2w2e7SM6GXvGdVTDXczbTBypUSYN0pSu-IMCd5atImWZBG6DvOg8o95pKmC9nc0H5jRMCfTBrtFbB0ba6iysaBd515MDP8fEWefKnRB8k8az61yt3hYhNhG-LQ2xgb1bz845tfZUK2KuKzXnmRZiMUmB_0agXDwQSEnTlJa5NlJxken911hhODilu2VCTKwbnweqj9QFHPDGoJcRZ-1GaVeGI-o1K70J3GZqLdcA_Ls=")
-OWNER_ID = int(os.getenv("OWNER_ID", "8730393744")
-MONGO_URI = int(os.getenv("MONGO_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
+API_ID = int(os.getenv("API_ID", "37476811"))
+API_HASH = os.getenv("API_HASH", "7aa60670b871050820086c6267371ee6")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8485375487:AAGbjy5K4PPcOkAlTKDFdYvQe04L_VmLkFw")
+SESSION = os.getenv("SESSION", "1BVtsOJ0Bu7iFhYaPaDWTPDdVAtu310L3iOh4PlTSxrTSyGaJPYQzf6rDgAMM9xGktQy9DodpC5TCCDTBMV3AiS4f5SNUbDR6kiPQ0PHUfj--XOQv82ZW2w2e7SM6GXvGdVTDXczbTBypUSYN0pSu-IMCd5atImWZBG6DvOg8o95pKmC9nc0H5jRMCfTBrtFbB0ba6iysaBd515MDP8fEWefKnRB8k8az61yt3hYhNhG-LQ2xgb1bz845tfZUK2KuKzXnmRZiMUmB_0agXDwQSEnTlJa5NlJxken911hhODilu2VCTKwbnweqj9QFHPDGoJcRZ-1GaVeGI-o1K70J3GZqLdcA_Ls=")
+OWNER_ID = int(os.getenv("OWNER_ID", "8730393744"))
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
 
 TG_BOT_WORKERS = int(os.getenv("TG_BOT_WORKERS", "10"))
 DOWNLOAD_DIR = "downloads"
