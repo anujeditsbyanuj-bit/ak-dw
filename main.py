@@ -1100,33 +1100,6 @@ async def send_stream_link(client: Client, query, link: str):
             parse_mode=ParseMode.HTML,
         )
 
-
-async def main():
-    await ensure_indexes()
-
-    await app.start()
-    logger.info("🤖 Diskwala Bot is running...")
-    await log_event(app, "🤖 <b>Bot Successfully Started</b> ♻️")
-
-    # Manual idle loop — avoids importing pyrogram.idle, which calls
-    # asyncio.get_event_loop() at import time and raises RuntimeError on
-    # Python 3.12+ where there's no implicit event loop.
-    stop_event = asyncio.Event()
-    loop = asyncio.get_running_loop()
-    for sig_name in ("SIGINT", "SIGTERM"):
-        sig = getattr(signal, sig_name, None)
-        if sig is not None:
-            try:
-                loop.add_signal_handler(sig, stop_event.set)
-            except Exception as e:
-                logger.warning(f"Couldn't register {sig_name} handler: {e}")
-
-    try:
-        await stop_event.wait()
-    finally:
-        await app.stop()
-
-
 if __name__ == "__main__":
     logger.info("Starting Diskwala Bot...")
     asyncio.run(main())
