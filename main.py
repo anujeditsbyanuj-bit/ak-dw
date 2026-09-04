@@ -349,7 +349,7 @@ PLANS_TEXT = (
     "• ₹999 → Lifetime Access ♾️\n\n"
     "🔒 <b>sᴇᴄᴜʀᴇ ᴘᴀʏᴍᴇɴᴛ:</b>\n"
     "⚡️ ᴜᴘɪ ɪᴅ: <code>971916880@ybl</code>\n"
-    "🔗 ǫʀ ᴄᴏᴅᴇ: <a href=\"https://l.arzfun.com/oxGhB\">Scan to Pay</a>\n"
+    "🔗 ǫʀ ᴄᴏᴅᴇ: <a href=\"https://iili.io/nHyIqox.jpg\">Scan to Pay</a>\n"
     "💡 After Payment: Send Screenshot to Admin for Instant Activation.\n\n"
     "👇 Plan pe tap karo — shuru ho jao!"
 )
